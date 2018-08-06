@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judulitem"
+            android:text="Judul"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/keteranganitem"
+            android:layout_below="@+id/imgitem"
+            android:layout_marginTop="20dp"
+            android:text="Keterangan"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/imgitem"
+            android:src="@drawable/topikoki1"
+            android:layout_gravity="center"
+            android:layout_below="@+id/judulitem"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp" />
+    </RelativeLayout>
+
+</ScrollView>
